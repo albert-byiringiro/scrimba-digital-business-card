@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../assets/laura-smith-image.svg"
+import profile from "../../public/assets/laura-smith-image.svg"
 
 function Info() {
     return (

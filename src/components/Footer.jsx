@@ -1,8 +1,8 @@
 import React from 'react';
-import twitter from "../assets/socials/Twitter Icon.svg"
-import facebook from "../assets/socials/Facebook Icon.svg"
-import instagram from "../assets/socials/Instagram Icon.svg"
-import github from "../assets/socials/GitHub Icon.svg"
+import twitter from "../../public/assets/Twitter Icon.svg"
+import facebook from "../../public/assets/Facebook Icon.svg"
+import instagram from "../../public/assets/Instagram Icon.svg"
+import github from "../../public/assets/GitHub Icon.svg"
 
 function Footer() {
   return (
