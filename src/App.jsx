@@ -1,14 +1,18 @@
 import React from 'react';
 import Info from "./components/Info";
+import Interests from "./components/Interests";
+import About from "./components/About";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      {/* <div className="bg-white p-8 rounded shadow-lg text-center">
-        <h1 className="text-2xl font-bold mb-4">Hello</h1>
-        <p className="text-gray-700">This is a simple setup to get you started.</p>
-      </div> */}
+    <div className="grid items-center justify-center min-h-screen bg-[#1d1c1c] rounded-lg px-8">
+      <div className="bg-white p-8 rounded shadow-lg w-96 relative">
       <Info />
+      <About/>
+      <Interests/>
+      <Footer/>
+      </div>
     </div>
   );
 }
